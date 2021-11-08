@@ -20,3 +20,5 @@
 | bpzhe | https://www.bpzhe.com/ |
 | 暗云 | https://www.anyuntv.com/ |
 | 白嫖者 | https://www.bpzhe.com/ |
+| 注视 | https://gaze.run/ |
+| 人人 | http://www.ldssz.com |
