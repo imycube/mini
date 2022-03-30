@@ -1,9 +1,16 @@
 # This is my WebSite
 ## Learning
 
-+ [菜鸟学习](www.runnoob.com)
-+ [w3school](https://www.quanzhanketang.com/)
-+ [w3shcool](www.w3school.com.cn)
++ [菜鸟学习](https://www.runnoob.com)
++ [w3school学习](https://www.quanzhanketang.com/)
++ [w3shcool](https://www.w3school.com.cn)
++ [linuxcool](https://www.linuxcool.com/)
++ [devdocs](https://devdocs.io/)
++ [redis command](https://redis.io/commands/)
++ [redis command 中文](http://www.redis.cn/commands.html)
+
++ [mongodb command](https://www.mongodb.com/docs/database-tools/)
++ [mongodb command 中文](https://www.mongodb.org.cn/tutorial/59.html)
 
 ---
 ## Tools
@@ -18,4 +25,10 @@
 
 ---
 ## Database
+
+---
+## 学习
+
+---
+## 开源项目
 
