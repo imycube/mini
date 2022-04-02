@@ -12,6 +12,9 @@
 + [mongodb command](https://www.mongodb.com/docs/database-tools/)
 + [mongodb command 中文](https://www.mongodb.org.cn/tutorial/59.html)
 
++ [leetcode](https://leetcode-cn.com/)
+
+
 ---
 ## Tools
 + [在线工具](https://tool.lu)
@@ -32,3 +35,6 @@
 ---
 ## 开源项目
 
+---
+## 学术论文
+https://sci-hub.se
