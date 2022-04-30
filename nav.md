@@ -31,3 +31,9 @@
 | 名称 | 地址 | 
 | ---- | ---- |
 | sci-hub | https://sci-hub.se |
+
+
+## 工具
+| 名称 | 地址 |
+| ---- | ---- |
+| m3u8下载合并 | https://github.com/nilaoda/N_m3u8DL-CLI/releases |
