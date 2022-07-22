@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Index </title>
+
+    <link rel="stylesheet" href="../static/assets/css/style.css" th:href="@{/assets/css/style.css}" />
+</head>
+<body>
+<header> nav </header>
+<main class="main">
+    <div class="link-type-box">
+        <div class="link-box">
+            <a href="./pan.html" th:href="@{/pan}"> 网盘 </a>
+        </div>
+    </div>
+    <br/>
+    <div class="link-type-box">
+        <div class="link-box">
+            <a href="./echarts.html" th:href="@{/echarts}"> echarts 图表 </a>
+        </div>
+        <div class="link-box">
+            <a href="./leaflet.html" th:href="@{/leaflet}"> leaflet 地图 </a>
+        </div>
+        <div class="link-box">
+            <a href="./office.html"> office在线 </a>
+        </div>
+        <div class="link-box">
+            <a href="./excel.html"> excel 图表 </a>
+        </div>
+    </div>
+
+</main>
+</body>
+</html>

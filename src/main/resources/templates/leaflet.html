@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>echart </title>
+
+    <link rel="stylesheet" href="../static/assets/css/style.css" th:href="@{/assets/css/style.css}" />
+    <link rel="stylesheet" href="../static/leaflet/leaflet.css" th:href="@{/leaflet/leaflet.css}"/>
+    <script type="text/javascript" src="../static/leaflet/leaflet.js" th:src="@{/leaflet/leaflet.js}" ></script>
+    <!--<link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+          integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+          crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+            integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+            crossorigin=""></script>-->
+</head>
+<body>
+<header> nav </header>
+<main>
+    <h3> 官方地址： <a href="https://leafletjs.com/"> leaflet map</a></h3>
+    <br/>
+    <div id="map" style="width: 600px;height:400px;"></div>
+
+</main>
+<script>
+    var map = L.map('map').setView([51.505, -0.09], 13);
+
+    // 添加图层
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a>'
+    }).addTo(map);
+
+    L.marker([51.5, -0.09]).addTo(map)
+        .bindPopup('A pretty CSS3 popup.<br> Easily customizable.')
+        .openPopup();
+</script>
+</body>
+</html>

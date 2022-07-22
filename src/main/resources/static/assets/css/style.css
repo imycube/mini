@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: black;
+    color: aliceblue;
+    height: 45px;
+    line-height: 45px;
+}
+
+main {
+}
+
+.link-type-box {
+    display: flex;
+}
+.link-box {
+    width: 180px;
+    background: ghostwhite;
+    border: #798080 dashed 1px;
+}
+.link-box a {
+    margin: 5px 10px;
+}
+
+header-title {
+    margin-left: 20px;
+}
+.main-flex {
+    display: flex;
+}
+.file-type {
+    width: 240px;
+    min-height: 300px;
+    background: black;
+}
+.file-type ul {
+    list-style: none;
+}
+.file-type ul>li {
+    line-height: 30px;
+    border: #1d1d1d solid 1px;
+    color: #f4f4f4;
+    padding-left: 30px;
+}
+
