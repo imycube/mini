@@ -1,1 +1,1 @@
-# mini
+# SpringBoot mini
